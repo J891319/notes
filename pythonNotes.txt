@@ -1,0 +1,33 @@
+Basic overview:
+
+Python is a programming language.
+Python can be used for backend and frontend development.
+Python was created in 1991.
+it is a good language as it is easy to learn and typicaly unvolves less code and is easier to read.
+These notes are for Python 3.
+
+Command line basics (macOS/Linux):
+
+pwd - prints working directory
+ls - lists files in the current directory
+mkdir directoryName - creates a new directory
+cd directoryName - changes the current directory
+cd .. - moves up one directory
+clear - cleans the terminal screen
+
+Installing Python:
+
+To install python I will use anaconda as it includes python and many other useful libraries.
+To install anaconda on linux it is command line based, here is the command:
+bash ~/Downloads/Anaconda3-5.2.0-Linux-x86_64.sh
+it will ask if you want install MS VS code, I would do it if you dont have it already.
+after that has run, you have to close and then open the terminal and type:
+anaconda-navigator
+this will open anaconda and then the install is complete.
+
+Enviroments:
+
+Text Editors - general text editors for any text file. Most Popular: Sublime Text and Atom.
+IDE - Intergarated Development Enviroments, they have an area to edit, debug, and run your code. Most Popular: PyCharm and MS VS Code.
+NoteBook Enviroments - Great for learning, see input and output next to each other, uses the cell format. Most Popular: Jupyter Notebook.
+for learning I recomend Jupyter Notebook as it is easy to see what the code does due to the cell format. Anaconda has already installed it, it can be launched from the Anaconda Navigator.
