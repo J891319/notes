@@ -33,13 +33,22 @@ NoteBook Enviroments - Great for learning, see input and output next to each oth
 For learning I recomend Jupyter Notebook as it is easy to see what the code does due to the cell format. Anaconda has already installed it, it can be launched from the Anaconda Navigator. But for projects I would use Sublime Text or MS VS Code.
 Please Note: Sublime Text is technicaly not free, but it has an unlimited free trail with no credit card required.
 
+data types:
+
+There are three types of data:
+Format = Name(internalName) - Defintion
+strings(str) - text
+intergers(int) - numbers
+booleans(bool) - True or False
+floating point(float) - a number with a decimal
+lists(list) - an ordered array of data
+dictionarys(dict) - stores data using unordered key values
+tuples(tup) - ordered immutable sequence of objects
+sets(set) - unordered collection of unique objects
+
 print:
 
 print() is used to print things to the console in python.
-There are three types of data that can be displayed:
-strings - text
-intergers - numbers
-booleans - True or False
 E.G:
 print("hello world!") - this is printing a string, notice how it is inside quotes.
 print(8) - this is printing an interger, notice how it is NOT inside quotes.
@@ -60,5 +69,3 @@ E.G:
 variableName = "hello world"
 variableName = 8
 variableName = True
-
-
