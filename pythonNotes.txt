@@ -30,4 +30,35 @@ Enviroments:
 Text Editors - general text editors for any text file. Most Popular: Sublime Text and Atom.
 IDE - Intergarated Development Enviroments, they have an area to edit, debug, and run your code. Most Popular: PyCharm and MS VS Code.
 NoteBook Enviroments - Great for learning, see input and output next to each other, uses the cell format. Most Popular: Jupyter Notebook.
-for learning I recomend Jupyter Notebook as it is easy to see what the code does due to the cell format. Anaconda has already installed it, it can be launched from the Anaconda Navigator.
+For learning I recomend Jupyter Notebook as it is easy to see what the code does due to the cell format. Anaconda has already installed it, it can be launched from the Anaconda Navigator. But for projects I would use Sublime Text or MS VS Code.
+Please Note: Sublime Text is technicaly not free, but it has an unlimited free trail with no credit card required.
+
+print:
+
+print() is used to print things to the console in python.
+There are three types of data that can be displayed:
+strings - text
+intergers - numbers
+booleans - True or False
+E.G:
+print("hello world!") - this is printing a string, notice how it is inside quotes.
+print(8) - this is printing an interger, notice how it is NOT inside quotes.
+print(True) - this is printing a boolean, notice how it does NOT need quotes.
+
+variables:
+
+variables are like boxes which contain a value.
+For example:
+variableName = "hello world" 
+in that example the variable 'variableName' has the value of the string "hello world". 
+This means that the variable can be called like so:
+print(variableName)
+When we type 'print(variableName)' it will print the value of the variable 'variableName'. 
+So the output would be, "hello world".
+Variables don't have to be strings, they can be any of the three data types.
+E.G:
+variableName = "hello world"
+variableName = 8
+variableName = True
+
+
