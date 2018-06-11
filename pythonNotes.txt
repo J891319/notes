@@ -56,7 +56,7 @@ print(True) - this is printing a boolean, notice how it does NOT need quotes.
 
 variables:
 
-variables are like boxes which contain a value.
+variables are like boxes with labels which contain a value.
 For example:
 variableName = "hello world" 
 in that example the variable 'variableName' has the value of the string "hello world". 
@@ -64,8 +64,50 @@ This means that the variable can be called like so:
 print(variableName)
 When we type 'print(variableName)' it will print the value of the variable 'variableName'. 
 So the output would be, "hello world".
+Recommed that you dont use words that have a special meaning in python, like str and num, as names.
 Variables don't have to be strings, they can be any of the three data types.
 E.G:
 variableName = "hello world"
 variableName = 8
 variableName = True
+We can reasign the values of variables if we want.
+E.G:
+myVar = 17
+print(myVar)
+myVar = myVar + 10
+print(myVar)
+This would print 17 and then 27, as the value of myVar was reasigned to the value of myVar plus 10.
+If you dont now what type of data is inside a variable you can use the type() function.
+E.G:
+a = 17
+type(a)
+This would print int which means interger.
+
+numbers:
+math operations:
++ - addition
+* - mutiplacation
+/ - divide
+** - power
+% - modulo or "mod", gives the remander after two numbers are divided.
+math in Python follow the basic order of math (bodmas).
+brackets can be used just like in maths.
+E.G:
+print(10 + 12)
+This would print, "22", we can use variables in this also.
+E.G:
+a = 10
+print(a + 12)
+This would print, "22".
+
+lists/arrays:
+lists are like variables but they conatin multiple sets of data.
+E.G:
+listName = ["hello", "hi", "good day"]
+This will create a list called 'listName'
+you can call lists just like variables, but you must tell Python which item in the list you want.
+E.G:
+print(listName[0])
+this would print the string, "hello" as that is the first item in our list, "listName".
+We start the indexes for lists at 0 instead of 1, so keep that in mind.
+
