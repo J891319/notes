@@ -1,0 +1,10 @@
+AnyWho is a website where you can find information on a person.
+Some of this information includes:
+
+    Previous adresses
+    Current addresses
+    Phone numbers
+    Pubic Records
+
+Spokeo and Yasni are also websites where you can find addresses, Yellow 
+Pages, Phone Numbers and social media accounts of people.

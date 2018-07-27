@@ -1,0 +1,52 @@
+The five stages of a hack are normally:
+
+    reconnaissance
+    scanning
+    gaining access
+    maintaining access
+    covering our tracks
+
+Before you begin your attack, you must gather information about the 
+target.
+All the information found out should be documented. This process is 
+called Footprinting.
+
+The two types of reconnaissance are active or passive.
+passive reconnaissance is when you go through an secondary source.
+Active reconnaissance is when you directly reach out to the target.
+
+Things you should do to get information internally (with physical 
+access) :
+
+    DNS servers
+    Private websites
+    Dumpster Diving - what can you learn from the trash?
+    Shoulder Surfing - what do you see?
+    Eavesdropping - over hear conversations.
+
+Things you should do to get information externally (across the Internet) 
+:
+
+    Phone (SE)
+    Network - What are they using?: WiFi, Modems, Satellite, ETC
+    Public website
+    Email (SE)
+    The Internet
+    whois
+    DNS
+    IP Blocks
+    Source Code
+    Social Networks
+    web srv content
+    OS detecting
+    Job Sites - if they are looking for a Linux expert, they likely have 
+Linux on their server.
+
+The places to start are normally:
+
+    The Internet
+    Social Media
+    whois
+    DNS
+
+DOCUMENT EVERYTHING

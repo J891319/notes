@@ -1,0 +1,57 @@
+nslookup is a tool used to find information about a server, including:
+
+    aliases
+    servers
+    IP addresses
+    Server Addresses
+
+To use nslookup, open a terminal and type:
+     nslookup www.website.com
+When this command is done it will give you some basic info on the site. 
+E.G: sever address and aliases.
+
+There is also an interactive mode on nslookup, which means that you can 
+just type a name of a site and it will give you info.
+To use this mode, just type:
+nslookup
+Then interactive mode is on and you can run tests without having to type 
+'nslookup' everytime.
+
+If you want to search for data on a specific server, you can do that 
+like so:
+server 1.1.1.1
+
+If you want to customize your query type you can do that by typing this 
+while in interactive mode:
+set type=X
+there are many different types of query, the default is 'A'.
+MX - would search for the preferred mail exchanger for the website or 
+server.
+SOA - would search for the primary domain name, mail domain, the serial 
+number, how often the zone is refreshed, it will also tell you how often 
+it will retry to refresh if it doesn't get a response back, and when it 
+will stop trying to refresh the zone if it fails, and finally,  the 
+servers default time delay.
+Knowing the serial can be useful as sometimes the serial is a date, so 
+we can tell if the server is outdated.
+
+if you want to save the output to a file, you can do that with this on 
+the end of the command:
+>> fileName.txt
+E.G:
+nslookup google.com >> nslookup.txt
+The file will be saved to your current working directory.
+This DOES NOT work in interactive mode.
+>> - appends to the file
+> - replaces
+So if you want to keep adding data to the file just keep using the '>>'. 
+If not, use '>'.
+
+If you want to change the query type for a non-interactive scan, you 
+have to go into interactive mode, set the query type, then exit 
+interactive mode, and run your scan.
+
+
+
+
+
