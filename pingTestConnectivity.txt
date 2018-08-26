@@ -1,0 +1,21 @@
+Ping is a tool used to test connections between a server and your 
+computer.
+Ping will test connectivity by sending packets of data to a server and 
+recording the response time, the packet loss, the packets received, and 
+the server of the site.
+
+The way you use ping is by opening a terminal and typing:
+ping www.website.com
+There are also some arguments that you can add to the command to change 
+the way it sends the packets.
+-t numberOfHops - allows you to set how many hops until the packet 
+expires.
+-s NUMBER - will set the size of the packets sent to the server.
+-M do - will set a flag saying NOT to fragment the packets.
+
+We can set a do not fragment flag and use the load size of the packets 
+we are sending to find out the maximum packet size that can be sent to 
+the server without being fragmented, using trial and error.
+
+We can also use -t to find out how many hops away the server is using 
+trial and error.

@@ -1,0 +1,39 @@
+
+Logging in:
+To log in to a linux CLI (Command Line Interface), you must type the command, 'userName ssh'.
+ssh stands for Secure SHell.
+To log out, just type the command, 'exit'
+
+'uname' tells you what operating system you're running on.
+'history' outputs all of your previous commands.
+'date' ouputs the current date and time.
+'expr <expression>' a basic calculator which evaluates an expression. E.G: expr 2 + 2, would output 4.
+'echo <text>' the shell's name for the print statement, it just repeats whatever you tell it, E.G: echo hi, would output hi.
+'hostname' outputs the computers own name for itself.
+'host <url>' takes a url and outputs it's IP adress, and mail handler.
+'rm <fileName>' takes in a file name and deletes it, PERMENANTLY.
+'curl <url> -o <outputFile>' downloads a file from the web and saves it to the specified name.
+'ls' lists all the files and directories in the current working directory.
+'uptime' outputs the current time, then the uptime of the computer in terms of days, minutes and hours. Then how many users are logged 
+in. And finally the computers average load.
+'unzip <fileName>' unzips (decompresses) a file and saves it to the current directory.
+'cat <fileName(s)>' prints out the contents of files to the command line.
+'wc <fileName>' outputs the word count of a file. in this order: number of lines, number of words, and number of bytes.
+'diff <fileName1> <fileName2>' diff compares files and tells you how they differ. The '>' points to the direction of the file the 
+includes the change.
+'man <programName>' opens the manual for a program in the terminal. 
+'ls -a' when listing files in the current directory include hidden files starting with '.'
+'ls -l' when listing files in the current directory use the long format. info includes: filename, modification time, file size, and if 
+it is a file or a directory.
+'ping <address>' this tests if another machine on the internet is alive and how long it takes to send it a message.
+'bc' runs a simple calculator program.
+'less <fileName>' less is a file reader for long text files, use the arrow keys to go up and down, or d to go down a page and u to go 
+up a page. You can also go to a specific line number by typing it. You can search for a specific word with the '/' and then the word.
+'nano <fileName>' nano is a file editor, which can edit, create, and navigate files. Navigate with the arrow keys, and use control + o 
+to save changes, and control + x to exit.
+'pwd' prints the shells current working directory.
+'cd <directoryName>' changes to the specified directory.
+'cd ..' goes up one in the system tree.
+absolute path - a way of showing the file tree starting from root. E.G: /home/james/stuff.txt
+relative path - a way of showing the file tree relative to the current working directory. E.G: stuff/file.txt
+
